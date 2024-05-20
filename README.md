@@ -52,9 +52,10 @@ then the program will give you the probability of all the children and the paren
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 -crossword: a crossword puzzles solver that takes a puzzle structure and a words file then it solves the puzzle according to the words from the file 
+and you can put an image name with png type and get the solved puzzle as an image too in the same folder of the project
 
 -to try it write this command in terminal:
-python generate.py (data/structure0.txt or data/structure1.txt or data/structure2.txt) (data/words0.txt or data/words1.txt or data/words2.txt) output.png
+python generate.py (data/structure0.txt or data/structure1.txt or data/structure2.txt) (data/words0.txt or data/words1.txt or data/words2.txt) (output.png: optional)
 then the program will give you a solved crossword puzzle (the puzzle may have some other solutions)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
