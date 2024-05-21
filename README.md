@@ -5,6 +5,7 @@ act in which mocvies) you need to enter two actors names from the people csv and
 
 -to try it write this command in terminal:
 python degrees.py (small or large (these are the sizes of data you i have in the csv))
+
 then the program will ask you to type two actors names so you can see them in the people csv and get the output of it
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
