@@ -13,6 +13,7 @@ then the program will ask you to type two actors names so you can see them in th
 
 -to try it write this command in terminal:
 python runner.py
+
 then the program will ask you which side do you want (X or O)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -20,6 +21,7 @@ then the program will ask you which side do you want (X or O)
 
 -to try it write this command in terminal:
 python puzzle.py
+
 then it will run four different puzzles that i made
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -34,6 +36,7 @@ the first one is the sample page rank algorithm and the other is the iterate pag
 
 -to try it write this command in terminal:
 python pagerank.py (corpus0 or corpus1 or corpus2)
+
 then the program will give you the pagerank using the two algorithms (sample, iterate)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -42,6 +45,7 @@ the first one is the sample page rank algorithm and the other is the iterate pag
 
 -to try it write this command in terminal:
 python pagerank.py (corpus0 or corpus1 or corpus2)
+
 then the program will ask you which side do you want (X or O)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,6 +53,7 @@ then the program will ask you which side do you want (X or O)
 
 -to try it write this command in terminal:
 python heredity.py (data/family0.csv or data/family1.csv or data/family2.csv)
+
 then the program will give you the probability of all the children and the parents
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -57,6 +62,7 @@ and you can put an image name with png type and get the solved puzzle as an imag
 
 -to try it write this command in terminal:
 python generate.py (data/structure0.txt or data/structure1.txt or data/structure2.txt) (data/words0.txt or data/words1.txt or data/words2.txt) (output.png: optional)
+
 then the program will give you a solved crossword puzzle (the puzzle may have some other solutions)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
