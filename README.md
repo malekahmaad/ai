@@ -66,3 +66,11 @@ python generate.py (data/structure0.txt or data/structure1.txt or data/structure
 then the program will give you a solved crossword puzzle (the puzzle may have some other solutions)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
+-shopping: a shopping program for a shopping web that has a csv with the information about a lot of users for example (BounceRates, ExitRates and else more) and wants to make an algorithm that sees if the user will complete a purchase or not by spliting the features and labels to train, test data and then fit an algorithm using the k-nearest neighbours and see the true predictions rate 
+
+-to try it write this command in terminal:
+python shopping.py shopping.csv
+
+then the program will show you the true positive and true negative rates (i used k- nearest neighbour with n_neighbours = 1 you can use it with any other number and you will see higher rate than mine with the one nearest neighbor)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
