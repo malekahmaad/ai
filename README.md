@@ -74,3 +74,11 @@ then the program will give you a solved crossword puzzle (the puzzle may have so
 then the program will show you the true positive and true negative rates (i used k- nearest neighbour with n_neighbours = 1 you can use it with any other number and you will see higher rate than mine with the one nearest neighbor)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
+-nim: a nim game project that works with reinforcement, it trains the AI by letting him play against itself and he learns the best moves he can do then the AI plays against a human. You can choose how many times the AI should train
+
+-to try it write this command in terminal:
+ python play.py
+
+ then the program will let the AI trains and after he finishes it will let you play against him
+
+ ---------------------------------------------------------------------------------------------------------------------------------------------------
