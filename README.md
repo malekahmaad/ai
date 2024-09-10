@@ -88,6 +88,7 @@ then the program will show you the true positive and true negative rates (i used
  python traffic.py (your folder name)
 
  then the program will give you the accuracy of the neural network
+
  NOTE: I didnt add the folder i have because it contains 43 folders with 150 images in each folder
  
  ----------------------------------------------------------------------------------------------------------------------------------------------------
