@@ -125,7 +125,7 @@ def evaluate(labels, predictions):
             if predictions[i]==0:
                 trueNegative+=1
 
-    return (truePositive/positive , trueNegative/negative)
+    return (truePositive/positive, trueNegative/negative)
     raise NotImplementedError
 
 
