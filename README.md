@@ -81,4 +81,13 @@ then the program will show you the true positive and true negative rates (i used
 
  then the program will let the AI trains and after he finishes it will let you play against him
 
- ---------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
+-traffic: a neural network model that reads 43 different street sign folders each folder contains a lot of different images of the same sign and then spliting the data to train and test, make the model with different layers, train it on the train data and last run it on the test data to see the accuracy
+
+-to try it write this command in terminal(and you need to put a folder with different folders that contains images):
+ python traffic.py (your folder name)
+
+ then the program will give you the accuracy of the neural network
+ NOTE: I didnt add the folder i have because it contains 43 folders with 150 imaes in each folder
+ 
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
