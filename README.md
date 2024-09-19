@@ -92,3 +92,14 @@ then the program will show you the true positive and true negative rates (i used
  NOTE: I didnt add the folder i have because it contains 43 folders with 150 images in each folder
  
  ----------------------------------------------------------------------------------------------------------------------------------------------------
+-parser: a parser program that parse different sentences and find their tree, then it finds the NP in the tree that doesnt have any NP in its subtrees (subtree with label NP that dooesnt have any subtree with label NP)
+
+-to try it write this command in terminal:
+ 1- python traffic.py (the file name that has the sentence)
+ 2- python traffic.py
+
+ the second command will let the program ask the user about the sentence he wants
+
+ then the program will print the tree, then it will print the subtrees of the subtree with label NP without any NP trees in its subtrees
+
+ ----------------------------------------------------------------------------------------------------------------------------------------------------
