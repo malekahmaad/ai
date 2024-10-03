@@ -92,7 +92,7 @@ then the program will show you the true positive and true negative rates (i used
  NOTE: I didnt add the folder i have because it contains 43 folders with 150 images in each folder
  
  ----------------------------------------------------------------------------------------------------------------------------------------------------
--parser: a parser program that parse different sentences and find their tree, then it finds the NP in the tree that doesnt have any NP in its subtrees (subtree with label NP that dooesnt have any subtree with label NP)
+-parser: a parser program that parse different sentences and find their tree, then it finds the NP in the tree that doesnt have any NP in its subtrees (subtree with label NP that doesnt have any subtree with label NP)
 
 -to try it write this command in terminal:
  1- python traffic.py (the file name that has the sentence)
@@ -103,3 +103,9 @@ then the program will show you the true positive and true negative rates (i used
  then the program will print the tree, then it will print the subtrees of the subtree with label NP without any NP trees in its subtrees
 
  ----------------------------------------------------------------------------------------------------------------------------------------------------
+-attention: an attention program that takes different sentences and swaps the mask in them with the top three words that can fit in the mask place.
+
+-to try it write this command in terminal:
+ 1- python mask.py
+
+ then the program will ask you for an input that contains a mask in it, then it will give you three different sentences with the top three words in the mask place and it will give you an image with the attention diagram
